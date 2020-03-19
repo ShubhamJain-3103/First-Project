@@ -1,5 +1,13 @@
 {
+    "name": "administrator/shubhamjainishero",
+    "description": "website",
     "require": {
         "mongodb/mongodb": "^1.5"
-    }
+    },
+    "authors": [
+        {
+            "name": "ShubhamJainIsHero",
+            "email": "jshubham579@gmail.com"
+        }
+    ]
 }
