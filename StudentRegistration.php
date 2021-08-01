@@ -51,54 +51,28 @@ if(isset($_POST['submit'])){
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <!-- bootstrap3links -->
 
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <!--  -->
     <link rel="stylesheet" href="./css/loginpage.css">
     <!--  -->
 
 </head>
 
 <body>
-    <nav class="navbar navbar-default"
-        style="background-color: rgb(32,31,37); font-family: sans-serif; font-size: 130% ;  text-align: center; ">
-
-        <!-- <div class="container-fluid"> -->
-        <div class="navbar-header"><br>
-
-            <div style="height:100px; ">
-                <img src="./images/Logopit_1571920426174.jpeg" class="rounded-circle" alt="Cinque Terre" width="80"
-                    height="80">
-            </div>
-
-            <!-- </div> -->
-            <div style="  color: white; text-align: center; >
- 
-       <a href=" #" style="color: white"></a>
-                <a href="index.php" style="color: white; padding-left: 20px;">Home</a>
-                <a href="index.php#about" style="color: white ;padding-left: 20px;">About</a>
-                <a href="index.php#courses" style="color: white ; padding-left: 20px;">Services</a>
-                <!-- <a href="index.php" style="color: white;padding-left: 20px">Contact</a> -->
-                <a href="LoginPage.php" style="color: white ;padding-left: 20px;">Login</a>
-                <h2 class="navheading"><strong>
-                        Signup
-                    </strong></h2>
-
-
-            </div>
+    <nav class="mynavbar">
+        <img src="./images/Logopit_1571920426174.jpeg" />
+        <ul>
+            <a href="#"></a>
+            <a href="./index.php">Home</a>
+            <a href="./index.php#about">About</a>
+            <a href="./index.php#courses">Services</a>
+            <a href="./LoginPage.php">Login</a>
+        </ul>
+        <h2><strong>Register Here</strong></h2>
     </nav>
 
     <main role="main">
-
-        <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron">
             <div class="container">
-
-
                 <form action="StudentRegistration.php" method="POST">
 
                     <div class="row">
@@ -142,26 +116,11 @@ if(isset($_POST['submit'])){
 
                         </div>
                     </div><br><br>
-
-
-
-
                     <div style="text-align: center;">
-
-
                         <div style="color:red"><?php echo $error['submit'];?></div>
                         <div style="color:green"><?php echo $error['success'];?></div>
-                        <input type="submit" name="submit">
-
-
-
-
+                        <input type="submit" value="Submit">
                     </div>
-
-
-
-
-
                 </form>
             </div>
             <div class="col"></div>

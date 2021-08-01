@@ -46,17 +46,12 @@ if(isset($_POST['submit'])){
     <title>Login Page | 7 Waves</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <!-- bootstrap3links -->
 
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!--  -->
     <link rel="stylesheet" href="./css/loginpage.css">
     <!--  -->
@@ -64,43 +59,22 @@ if(isset($_POST['submit'])){
 </head>
 
 <body>
-    <nav class="navbar navbar-default"
-        style="background-color: rgb(32,31,37); font-family: sans-serif; font-size: 130% ;  text-align: center; ">
-
-        <!-- <div class="container-fluid"> -->
-        <div class="navbar-header"><br>
-
-            <div style="height:100px; ">
-                <img src="./images/Logopit_1571920426174.jpeg" class="rounded-circle" alt="Cinque Terre" width="80"
-                    height="80">
-            </div>
-
-            <!-- </div> -->
-            <div style="  color: white; text-align: center; >
- 
-       <a href=" #" style="color: white"></a>
-                <a href="index.php" style="color: white; padding-left: 20px;">Home</a>
-                <a href="index.php#about" style="color: white ;padding-left: 20px;">About</a>
-                <a href="index.php#courses" style="color: white ; padding-left: 20px;">Services</a>
-                <!-- <a href="index.php" style="color: white;padding-left: 20px">Contact</a> -->
-                <a href="StudentRegistration.php" style="color: white ;padding-left: 20px;">Signup</a>
-                <h2 class="navheading"><strong>
-                        Login Page
-                    </strong></h2>
-
-
-            </div>
+    <nav class="mynavbar">
+        <img src="./images/Logopit_1571920426174.jpeg" />
+        <ul>
+            <a href="#"></a>
+            <a href="./index.php">Home</a>
+            <a href="./index.php#about">About</a>
+            <a href="./index.php#courses">Services</a>
+            <a href="./StudentRegistration.php">Sign up</a>
+        </ul>
+        <h2><strong>Login Page</strong></h2>
     </nav>
-    <main role="main">
 
-        <!-- Main jumbotron for a primary marketing message or call to action -->
+    <main>
         <div class="jumbotron">
             <div class="container">
-
-
-                <form action="LoginPage.php" method="POST">
-
-
+                <form action="./LoginPage.php" method="POST">
                     <div class="row">
                         <div class="col-25">
                             <label for="Email">Email id</label>
