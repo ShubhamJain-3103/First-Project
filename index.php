@@ -1882,7 +1882,7 @@ it was commented -->
 
 
         <div class="col-xs-12 col-sm-6 image-col2 first-xs last-sm" data-bg="image"
-            style='background-image: url(_http_/extendthemes.com/demos/mesmerize-pro-coaching/wp-content/uploads/sites/33/2018/08/WhatsApp-Image-2020-02-08-at-3.45.31-PM.jpeg);'>
+            style='background-image: url(_http_/extendthemes.com/demos/mesmerize-pro-coaching/wp-content/uploads/sites/33/2018/08/WhatsAppImage.jpeg);'>
         </div>
     </div>
     </div>
