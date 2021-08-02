@@ -1908,9 +1908,8 @@ it was commented -->
                 <div class="col-sm-6 flexbox around-xs top-xs space-top-xs">
                     <div class="overlay-box flexbox middle-xs center-xs overlay-holder">
                         <div class="overlay-box-offset shadow-medium bg-color2 hide-xs offset-background"></div> <img
-                            class="flexbox shadow-large img1" data-size="500x500"
-                            src="./images/WhatsApp Image 2020-02-08 at 3.45.31 PM.jpeg" alt=""
-                            title="pexels-photo (11)">
+                            class="flexbox shadow-large img1" data-size="500x500" src="./images/WhatsAppImage.jpeg"
+                            alt="" title="pexels-photo (11)">
                     </div>
                 </div>
             </div>
