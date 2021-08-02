@@ -5,36 +5,36 @@ require("mongo-config.php");
 //database=student $db
 //collection=signup_data $collection
 
-$email=$password=$cpassword='';
-$nhpassword=$nhcpassword='';
-$error=array('submit'=>'','success'=>'');
+$email = $password = $cpassword = '';
+$nhpassword = $nhcpassword = '';
+$error = array('submit' => '', 'success' => '');
 
-if(isset($_POST['submit'])){
-	$email=htmlspecialchars($_POST['email']);
-	$nhpassword=htmlspecialchars($_POST['password']);
-	$nhcpassword=htmlspecialchars($_POST['cpassword']);
-	$password=password_hash($nhpassword,PASSWORD_DEFAULT);
-	$cpassword=password_hash($nhcpassword,PASSWORD_DEFAULT);
-	if(!($cpassword=$password)){
-		$error['submit']='The password must match. Please re-check your password!';
-		exit;
-	}else{
-		$query = $collection->findOne(['email'=>$email]);
-		if($query['email']=$email){
-			if($query['password']=$password){
-				$uppdateResult = $collection->updateOne(['name'=>$email],['$set'=>['password'=>$password]]);
-				 //$error['success']='The pasword is updated successsfully!';
-				 header("Location: LoginPage.php");
-				 exit;
-			}else{
-				$error['submit']='User not found!';
-				exit;
-			}
-		}else{
-			$error['submit']='User not found!';
-			exit;
-		}
-	}
+if (isset($_POST['submit'])) {
+    $email = htmlspecialchars($_POST['email']);
+    $nhpassword = htmlspecialchars($_POST['password']);
+    $nhcpassword = htmlspecialchars($_POST['cpassword']);
+    $password = password_hash($nhpassword, PASSWORD_DEFAULT);
+    $cpassword = password_hash($nhcpassword, PASSWORD_DEFAULT);
+    if (!($cpassword = $password)) {
+        $error['submit'] = 'The password must match. Please re-check your password!';
+        exit;
+    } else {
+        $query = $collection->findOne(['email' => $email]);
+        if ($query['email'] = $email) {
+            if ($query['password'] = $password) {
+                $uppdateResult = $collection->updateOne(['name' => $email], ['$set' => ['password' => $password]]);
+                //$error['success']='The pasword is updated successsfully!';
+                header("Location: LoginPage.php");
+                exit;
+            } else {
+                $error['submit'] = 'User not found!';
+                exit;
+            }
+        } else {
+            $error['submit'] = 'User not found!';
+            exit;
+        }
+    }
 }
 ?>
 
@@ -116,8 +116,8 @@ if(isset($_POST['submit'])){
                         </div>
                     </div>
                     <br>
-                    <div style="color:green"><?php echo $error['success'];?></div>
-                    <div style="color:red"><?php echo $error['submit'];?></div>
+                    <div style="color:green"><?php echo $error['success']; ?></div>
+                    <div style="color:red"><?php echo $error['submit']; ?></div>
                     <div><input type="submit" name="submit" value="submit"></div>
                 </form>
 

@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 session_start();
-if(empty($_SESSION['email'])){
-  header("Location:LoginPage.php?value=You have to Login.");
+if (empty($_SESSION['email'])) {
+    header("Location:LoginPage.php?value=You have to Login.");
 }
 
 ?>
@@ -37,7 +37,7 @@ if(empty($_SESSION['email'])){
             <a href="index.php#about" style="color: white ;padding-left: 20px;">About</a>
             <a href="index.php#courses" style="color: white ; padding-left: 20px;">Services</a>
             <!-- <a href="index.html" style="color: white;padding-left: 20px">Contact</a> -->
-            <a href="logout.php" style="color: white ;padding-left: 20px;"><?php echo $_SESSION['logout'];?></a><br>
+            <a href="logout.php" style="color: white ;padding-left: 20px;"><?php echo $_SESSION['logout']; ?></a><br>
             <h2 class="navheading" style="text-align: center;padding-right: 35%;"><strong>
                     BLOG PAGE
                 </strong></h2>

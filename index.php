@@ -1002,7 +1002,7 @@
     <style data-name="menu-align">
     .mesmerize-front-page .main-menu,
     .mesmerize-front-page .main_menu_col {
-        justify-content: ;
+        justify-content: none;
     }
     </style>
     <style type="text/css">
@@ -1160,51 +1160,570 @@
     .post-comments,
     .sidebar .widget,
     .post-list .post-list-item {
-        //border-bottom-color:#cc4543; } .nav-links .prev-navigation a, .post-comments .navigation .prev-navigation a, .nav-links .next-navigation a, .post-comments .navigation .next-navigation a{ border-color:#cc4543; } .tags-list a:hover{ border-color:#cc4543; background-color:#cc4543; } svg.section-separator-top path.svg-white-bg, svg.section-separator-bottom path.svg-white-bg{ fill: #cc4543; } p.color1{ color : #cc4543; } span.color1{ color : #cc4543; } h1.color1{ color : #cc4543; } h2.color1{ color : #cc4543; } h3.color1{ color : #cc4543; } h4.color1{ color : #cc4543; } h5.color1{ color : #cc4543; } h6.color1{ color : #cc4543; } .card.bg-color1, .bg-color1{ background-color:#cc4543; } a.color1:not(.button){ color:#cc4543; } a.color1:not(.button):hover{ color:#E05957; } button.color1, .button.color1{ background-color:#cc4543; border-color:#cc4543; } button.color1:hover, .button.color1:hover{ background-color:#E05957; border-color:#E05957; } button.outline.color1, .button.outline.color1{ background:none; border-color:#cc4543; color:#cc4543; } button.outline.color1:hover, .button.outline.color1:hover{ background:none; border-color:rgba(204,69,67,0.7); color:rgba(204,69,67,0.9); } i.fa.color1{ color:#cc4543; } i.fa.icon.bordered.color1{ border-color:#cc4543; } i.fa.icon.reverse.color1{ background-color:#cc4543; color: #ffffff; } i.fa.icon.reverse.color-white{ color: #d5d5d5; } i.fa.icon.bordered.color1{ border-color:#cc4543; } i.fa.icon.reverse.bordered.color1{ background-color:#cc4543; color: #ffffff; } .top-right-triangle.color1{ border-right-color:#cc4543; } .checked.decoration-color1 li:before { color:#cc4543; } .stared.decoration-color1 li:before { color:#cc4543; } .card.card-color1{ background-color:#cc4543; } .card.bottom-border-color1{ border-bottom-color: #cc4543; } .grad-180-transparent-color1{  background-image: linear-gradient(180deg, rgba(204,69,67,0) 0%, rgba(204,69,67,0) 50%, rgba(204,69,67,0.6) 78%, rgba(204,69,67,0.9) 100%) !important; } .border-color1{ border-color: #cc4543; } p.color2{ color : #201f25; } span.color2{ color : #201f25; } h1.color2{ color : #201f25; } h2.color2{ color : #201f25; } h3.color2{ color : #201f25; } h4.color2{ color : #201f25; } h5.color2{ color : #201f25; } h6.color2{ color : #201f25; } .card.bg-color2, .bg-color2{ background-color:#201f25; } a.color2:not(.button){ color:#201f25; } a.color2:not(.button):hover{ color:#343339; } button.color2, .button.color2{ background-color:#201f25; border-color:#201f25; } button.color2:hover, .button.color2:hover{ background-color:#343339; border-color:#343339; } button.outline.color2, .button.outline.color2{ background:none; border-color:#201f25; color:#201f25; } button.outline.color2:hover, .button.outline.color2:hover{ background:none; border-color:rgba(32,31,37,0.7); color:rgba(32,31,37,0.9); } i.fa.color2{ color:#201f25; } i.fa.icon.bordered.color2{ border-color:#201f25; } i.fa.icon.reverse.color2{ background-color:#201f25; color: #ffffff; } i.fa.icon.reverse.color-white{ color: #d5d5d5; } i.fa.icon.bordered.color2{ border-color:#201f25; } i.fa.icon.reverse.bordered.color2{ background-color:#201f25; color: #ffffff; } .top-right-triangle.color2{ border-right-color:#201f25; } .checked.decoration-color2 li:before { color:#201f25; } .stared.decoration-color2 li:before { color:#201f25; } .card.card-color2{ background-color:#201f25; } .card.bottom-border-color2{ border-bottom-color: #201f25; } .grad-180-transparent-color2{  background-image: linear-gradient(180deg, rgba(32,31,37,0) 0%, rgba(32,31,37,0) 50%, rgba(32,31,37,0.6) 78%, rgba(32,31,37,0.9) 100%) !important; } .border-color2{ border-color: #201f25; } p.color-white{ color : #ffffff; } span.color-white{ color : #ffffff; } h1.color-white{ color : #ffffff; } h2.color-white{ color : #ffffff; } h3.color-white{ color : #ffffff; } h4.color-white{ color : #ffffff; } h5.color-white{ color : #ffffff; } h6.color-white{ color : #ffffff; } .card.bg-color-white, .bg-color-white{ background-color:#ffffff; } a.color-white:not(.button){ color:#ffffff; } a.color-white:not(.button):hover{ color:#FFFFFF; } button.color-white, .button.color-white{ background-color:#ffffff; border-color:#ffffff; } button.color-white:hover, .button.color-white:hover{ background-color:#FFFFFF; border-color:#FFFFFF; } button.outline.color-white, .button.outline.color-white{ background:none; border-color:#ffffff; color:#ffffff; } button.outline.color-white:hover, .button.outline.color-white:hover{ background:none; border-color:rgba(255,255,255,0.7); color:rgba(255,255,255,0.9); } i.fa.color-white{ color:#ffffff; } i.fa.icon.bordered.color-white{ border-color:#ffffff; } i.fa.icon.reverse.color-white{ background-color:#ffffff; color: #ffffff; } i.fa.icon.reverse.color-white{ color: #d5d5d5; } i.fa.icon.bordered.color-white{ border-color:#ffffff; } i.fa.icon.reverse.bordered.color-white{ background-color:#ffffff; color: #ffffff; } .top-right-triangle.color-white{ border-right-color:#ffffff; } .checked.decoration-color-white li:before { color:#ffffff; } .stared.decoration-color-white li:before { color:#ffffff; } .card.card-color-white{ background-color:#ffffff; } .card.bottom-border-color-white{ border-bottom-color: #ffffff; } .grad-180-transparent-color-white{  background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.6) 78%, rgba(255,255,255,0.9) 100%) !important; } .border-color-white{ border-color: #ffffff; } p.color-black{ color : #000000; } span.color-black{ color : #000000; } h1.color-black{ color : #000000; } h2.color-black{ color : #000000; } h3.color-black{ color : #000000; } h4.color-black{ color : #000000; } h5.color-black{ color : #000000; } h6.color-black{ color : #000000; } .card.bg-color-black, .bg-color-black{ background-color:#000000; } a.color-black:not(.button){ color:#000000; } a.color-black:not(.button):hover{ color:#141414; } button.color-black, .button.color-black{ background-color:#000000; border-color:#000000; } button.color-black:hover, .button.color-black:hover{ background-color:#141414; border-color:#141414; } button.outline.color-black, .button.outline.color-black{ background:none; border-color:#000000; color:#000000; } button.outline.color-black:hover, .button.outline.color-black:hover{ background:none; border-color:rgba(0,0,0,0.7); color:rgba(0,0,0,0.9); } i.fa.color-black{ color:#000000; } i.fa.icon.bordered.color-black{ border-color:#000000; } i.fa.icon.reverse.color-black{ background-color:#000000; color: #ffffff; } i.fa.icon.reverse.color-white{ color: #d5d5d5; } i.fa.icon.bordered.color-black{ border-color:#000000; } i.fa.icon.reverse.bordered.color-black{ background-color:#000000; color: #ffffff; } .top-right-triangle.color-black{ border-right-color:#000000; } .checked.decoration-color-black li:before { color:#000000; } .stared.decoration-color-black li:before { color:#000000; } .card.card-color-black{ background-color:#000000; } .card.bottom-border-color-black{ border-bottom-color: #000000; } .grad-180-transparent-color-black{  background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 78%, rgba(0,0,0,0.9) 100%) !important; } .border-color-black{ border-color: #000000; }       
 
-        .fa {
-            padding: 10px;
-            font-size: 15px;
-            width: 37px;
-            text-align: center;
-            text-decoration: none;
-            margin: 5px 2px;
-            border-radius: 50%;
-        }
+        border-bottom-color: #cc4543;
+    }
 
-        .fa:hover {
-            opacity: 0.7;
-        }
+    .nav-links .prev-navigation a,
+    .post-comments .navigation .prev-navigation a,
+    .nav-links .next-navigation a,
+    .post-comments .navigation .next-navigation a {
+        border-color: #cc4543;
+    }
 
-        .fa-facebook {
-            background: #3B5998;
-            color: white;
-        }
+    .tags-list a:hover {
+        border-color: #cc4543;
+        background-color: #cc4543;
+    }
 
-        .fa-twitter {
-            background: #55ACEE;
-            color: white;
-        }
+    svg.section-separator-top path.svg-white-bg,
+    svg.section-separator-bottom path.svg-white-bg {
+        fill: #cc4543;
+    }
 
-        .fa-google {
-            background: #dd4b39;
-            color: white;
-        }
+    p.color1 {
+        color: #cc4543;
+    }
 
-        .fa-linkedin {
-            background: #007bb5;
-            color: white;
-        }
+    span.color1 {
+        color: #cc4543;
+    }
 
-        .fa-youtube {
-            background: #bb0000;
-            color: white;
-        }
+    h1.color1 {
+        color: #cc4543;
+    }
 
-        .fa-instagram {
-            background: #125688;
-            color: white;
-        }
+    h2.color1 {
+        color: #cc4543;
+    }
+
+    h3.color1 {
+        color: #cc4543;
+    }
+
+    h4.color1 {
+        color: #cc4543;
+    }
+
+    h5.color1 {
+        color: #cc4543;
+    }
+
+    h6.color1 {
+        color: #cc4543;
+    }
+
+    .card.bg-color1,
+    .bg-color1 {
+        background-color: #cc4543;
+    }
+
+    a.color1:not(.button) {
+        color: #cc4543;
+    }
+
+    a.color1:not(.button):hover {
+        color: #E05957;
+    }
+
+    button.color1,
+    .button.color1 {
+        background-color: #cc4543;
+        border-color: #cc4543;
+    }
+
+    button.color1:hover,
+    .button.color1:hover {
+        background-color: #E05957;
+        border-color: #E05957;
+    }
+
+    button.outline.color1,
+    .button.outline.color1 {
+        background: none;
+        border-color: #cc4543;
+        color: #cc4543;
+    }
+
+    button.outline.color1:hover,
+    .button.outline.color1:hover {
+        background: none;
+        border-color: rgba(204, 69, 67, 0.7);
+        color: rgba(204, 69, 67, 0.9);
+    }
+
+    i.fa.color1 {
+        color: #cc4543;
+    }
+
+    i.fa.icon.bordered.color1 {
+        border-color: #cc4543;
+    }
+
+    i.fa.icon.reverse.color1 {
+        background-color: #cc4543;
+        color: #ffffff;
+    }
+
+    i.fa.icon.reverse.color-white {
+        color: #d5d5d5;
+    }
+
+    i.fa.icon.bordered.color1 {
+        border-color: #cc4543;
+    }
+
+    i.fa.icon.reverse.bordered.color1 {
+        background-color: #cc4543;
+        color: #ffffff;
+    }
+
+    .top-right-triangle.color1 {
+        border-right-color: #cc4543;
+    }
+
+    .checked.decoration-color1 li:before {
+        color: #cc4543;
+    }
+
+    .stared.decoration-color1 li:before {
+        color: #cc4543;
+    }
+
+    .card.card-color1 {
+        background-color: #cc4543;
+    }
+
+    .card.bottom-border-color1 {
+        border-bottom-color: #cc4543;
+    }
+
+    .grad-180-transparent-color1 {
+        background-image: linear-gradient(180deg, rgba(204, 69, 67, 0) 0%, rgba(204, 69, 67, 0) 50%, rgba(204, 69, 67, 0.6) 78%, rgba(204, 69, 67, 0.9) 100%) !important;
+    }
+
+    .border-color1 {
+        border-color: #cc4543;
+    }
+
+    p.color2 {
+        color: #201f25;
+    }
+
+    span.color2 {
+        color: #201f25;
+    }
+
+    h1.color2 {
+        color: #201f25;
+    }
+
+    h2.color2 {
+        color: #201f25;
+    }
+
+    h3.color2 {
+        color: #201f25;
+    }
+
+    h4.color2 {
+        color: #201f25;
+    }
+
+    h5.color2 {
+        color: #201f25;
+    }
+
+    h6.color2 {
+        color: #201f25;
+    }
+
+    .card.bg-color2,
+    .bg-color2 {
+        background-color: #201f25;
+    }
+
+    a.color2:not(.button) {
+        color: #201f25;
+    }
+
+    a.color2:not(.button):hover {
+        color: #343339;
+    }
+
+    button.color2,
+    .button.color2 {
+        background-color: #201f25;
+        border-color: #201f25;
+    }
+
+    button.color2:hover,
+    .button.color2:hover {
+        background-color: #343339;
+        border-color: #343339;
+    }
+
+    button.outline.color2,
+    .button.outline.color2 {
+        background: none;
+        border-color: #201f25;
+        color: #201f25;
+    }
+
+    button.outline.color2:hover,
+    .button.outline.color2:hover {
+        background: none;
+        border-color: rgba(32, 31, 37, 0.7);
+        color: rgba(32, 31, 37, 0.9);
+    }
+
+    i.fa.color2 {
+        color: #201f25;
+    }
+
+    i.fa.icon.bordered.color2 {
+        border-color: #201f25;
+    }
+
+    i.fa.icon.reverse.color2 {
+        background-color: #201f25;
+        color: #ffffff;
+    }
+
+    i.fa.icon.reverse.color-white {
+        color: #d5d5d5;
+    }
+
+    i.fa.icon.bordered.color2 {
+        border-color: #201f25;
+    }
+
+    i.fa.icon.reverse.bordered.color2 {
+        background-color: #201f25;
+        color: #ffffff;
+    }
+
+    .top-right-triangle.color2 {
+        border-right-color: #201f25;
+    }
+
+    .checked.decoration-color2 li:before {
+        color: #201f25;
+    }
+
+    .stared.decoration-color2 li:before {
+        color: #201f25;
+    }
+
+    .card.card-color2 {
+        background-color: #201f25;
+    }
+
+    .card.bottom-border-color2 {
+        border-bottom-color: #201f25;
+    }
+
+    .grad-180-transparent-color2 {
+        background-image: linear-gradient(180deg, rgba(32, 31, 37, 0) 0%, rgba(32, 31, 37, 0) 50%, rgba(32, 31, 37, 0.6) 78%, rgba(32, 31, 37, 0.9) 100%) !important;
+    }
+
+    .border-color2 {
+        border-color: #201f25;
+    }
+
+    p.color-white {
+        color: #ffffff;
+    }
+
+    span.color-white {
+        color: #ffffff;
+    }
+
+    h1.color-white {
+        color: #ffffff;
+    }
+
+    h2.color-white {
+        color: #ffffff;
+    }
+
+    h3.color-white {
+        color: #ffffff;
+    }
+
+    h4.color-white {
+        color: #ffffff;
+    }
+
+    h5.color-white {
+        color: #ffffff;
+    }
+
+    h6.color-white {
+        color: #ffffff;
+    }
+
+    .card.bg-color-white,
+    .bg-color-white {
+        background-color: #ffffff;
+    }
+
+    a.color-white:not(.button) {
+        color: #ffffff;
+    }
+
+    a.color-white:not(.button):hover {
+        color: #FFFFFF;
+    }
+
+    button.color-white,
+    .button.color-white {
+        background-color: #ffffff;
+        border-color: #ffffff;
+    }
+
+    button.color-white:hover,
+    .button.color-white:hover {
+        background-color: #FFFFFF;
+        border-color: #FFFFFF;
+    }
+
+    button.outline.color-white,
+    .button.outline.color-white {
+        background: none;
+        border-color: #ffffff;
+        color: #ffffff;
+    }
+
+    button.outline.color-white:hover,
+    .button.outline.color-white:hover {
+        background: none;
+        border-color: rgba(255, 255, 255, 0.7);
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    i.fa.color-white {
+        color: #ffffff;
+    }
+
+    i.fa.icon.bordered.color-white {
+        border-color: #ffffff;
+    }
+
+    i.fa.icon.reverse.color-white {
+        background-color: #ffffff;
+        color: #ffffff;
+    }
+
+    i.fa.icon.reverse.color-white {
+        color: #d5d5d5;
+    }
+
+    i.fa.icon.bordered.color-white {
+        border-color: #ffffff;
+    }
+
+    i.fa.icon.reverse.bordered.color-white {
+        background-color: #ffffff;
+        color: #ffffff;
+    }
+
+    .top-right-triangle.color-white {
+        border-right-color: #ffffff;
+    }
+
+    .checked.decoration-color-white li:before {
+        color: #ffffff;
+    }
+
+    .stared.decoration-color-white li:before {
+        color: #ffffff;
+    }
+
+    .card.card-color-white {
+        background-color: #ffffff;
+    }
+
+    .card.bottom-border-color-white {
+        border-bottom-color: #ffffff;
+    }
+
+    .grad-180-transparent-color-white {
+        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.6) 78%, rgba(255, 255, 255, 0.9) 100%) !important;
+    }
+
+    .border-color-white {
+        border-color: #ffffff;
+    }
+
+    p.color-black {
+        color: #000000;
+    }
+
+    span.color-black {
+        color: #000000;
+    }
+
+    h1.color-black {
+        color: #000000;
+    }
+
+    h2.color-black {
+        color: #000000;
+    }
+
+    h3.color-black {
+        color: #000000;
+    }
+
+    h4.color-black {
+        color: #000000;
+    }
+
+    h5.color-black {
+        color: #000000;
+    }
+
+    h6.color-black {
+        color: #000000;
+    }
+
+    .card.bg-color-black,
+    .bg-color-black {
+        background-color: #000000;
+    }
+
+    a.color-black:not(.button) {
+        color: #000000;
+    }
+
+    a.color-black:not(.button):hover {
+        color: #141414;
+    }
+
+    button.color-black,
+    .button.color-black {
+        background-color: #000000;
+        border-color: #000000;
+    }
+
+    button.color-black:hover,
+    .button.color-black:hover {
+        background-color: #141414;
+        border-color: #141414;
+    }
+
+    button.outline.color-black,
+    .button.outline.color-black {
+        background: none;
+        border-color: #000000;
+        color: #000000;
+    }
+
+    button.outline.color-black:hover,
+    .button.outline.color-black:hover {
+        background: none;
+        border-color: rgba(0, 0, 0, 0.7);
+        color: rgba(0, 0, 0, 0.9);
+    }
+
+    i.fa.color-black {
+        color: #000000;
+    }
+
+    i.fa.icon.bordered.color-black {
+        border-color: #000000;
+    }
+
+    i.fa.icon.reverse.color-black {
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    i.fa.icon.reverse.color-white {
+        color: #d5d5d5;
+    }
+
+    i.fa.icon.bordered.color-black {
+        border-color: #000000;
+    }
+
+    i.fa.icon.reverse.bordered.color-black {
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    .top-right-triangle.color-black {
+        border-right-color: #000000;
+    }
+
+    .checked.decoration-color-black li:before {
+        color: #000000;
+    }
+
+    .stared.decoration-color-black li:before {
+        color: #000000;
+    }
+
+    .card.card-color-black {
+        background-color: #000000;
+    }
+
+    .card.bottom-border-color-black {
+        border-bottom-color: #000000;
+    }
+
+    .grad-180-transparent-color-black {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.6) 78%, rgba(0, 0, 0, 0.9) 100%) !important;
+    }
+
+    .border-color-black {
+        border-color: #000000;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 15px;
+        width: 37px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+    .fa-google {
+        background: #dd4b39;
+        color: white;
+    }
+
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
     </style>
 </head>
 
@@ -1363,7 +1882,7 @@ it was commented -->
 
 
         <div class="col-xs-12 col-sm-6 image-col2 first-xs last-sm" data-bg="image"
-            style="background-image: url(_http_/extendthemes.com/demos/mesmerize-pro-coaching/wp-content/uploads/sites/33/2018/08/WhatsApp Image 2020-02-08 at 3.45.31 PM.jpeg);">
+            style='background-image: url(_http_/extendthemes.com/demos/mesmerize-pro-coaching/wp-content/uploads/sites/33/2018/08/WhatsApp-Image-2020-02-08-at-3.45.31-PM.jpeg);'>
         </div>
     </div>
     </div>
@@ -1741,7 +2260,7 @@ it was commented -->
     </div>
 
     <div class='footer footer-4'>
-        <div class='footer-content' style=''>
+        <div class='footer-content'>
             <div class="gridContainer">
                 <div class="row">
                     <div class="col-sm-9 col-xs-12">

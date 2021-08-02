@@ -2,38 +2,36 @@
 session_start();
 require("mongo-config.php");
 
-$email=$password=$nhpassword='';
-$error=array('submit'=>'','success'=>'');
-	
-if(isset($_SESSION['_id'])){
-	header("Location:blogPage.php?id=".rand());
+$email = $password = $nhpassword = '';
+$error = array('submit' => '', 'success' => '');
+
+if (isset($_SESSION['_id'])) {
+    header("Location:blogPage.php?id=" . rand());
 }
-if(isset($_POST['submit'])){
-	if(empty($_POST['email'])||empty($_POST['password'])){
-		$error['submit']='There are errors in the form!';
-		exit;
-	}
-	$email=htmlspecialchars($_POST['email']);
-	$nhpassword=htmlspecialchars($_POST['password']);
-	$password=password_hash($nhpassword,PASSWORD_DEFAULT);
-	
-	$query = $collection->findOne(['email' => $email]);	
-	
-	if($query){
-		if($query['password']=$password){
-			//$error['success']='Signup success';
-				$_SESSION['_id']=$query['_id'];
-				$_SESSION['email']=$query['email'];
-				$_SESSION['logout']='Logout';
-			header("Location:blogPage.php?id=".rand());
-		}
-		else{
-		$error['submit']='The user not found. Please Signup';
-		}
-	}
-	else{
-		$error['submit']='The user not found. Please Signup';
-	}
+if (isset($_POST['submit'])) {
+    if (empty($_POST['email']) || empty($_POST['password'])) {
+        $error['submit'] = 'There are errors in the form!';
+        exit;
+    }
+    $email = htmlspecialchars($_POST['email']);
+    $nhpassword = htmlspecialchars($_POST['password']);
+    $password = password_hash($nhpassword, PASSWORD_DEFAULT);
+
+    $query = $collection->findOne(['email' => $email]);
+
+    if ($query) {
+        if ($query['password'] = $password) {
+            //$error['success']='Signup success';
+            $_SESSION['_id'] = $query['_id'];
+            $_SESSION['email'] = $query['email'];
+            $_SESSION['logout'] = 'Logout';
+            header("Location:blogPage.php?id=" . rand());
+        } else {
+            $error['submit'] = 'The user not found. Please Signup';
+        }
+    } else {
+        $error['submit'] = 'The user not found. Please Signup';
+    }
 }
 
 ?>
@@ -95,8 +93,8 @@ if(isset($_POST['submit'])){
                                 required>
                         </div>
                     </div><br>
-                    <div style="color:green"><?php echo $error['success'];?></div>
-                    <div style="color:red"><?php echo $error['submit'];?></div>
+                    <div style="color:green"><?php echo $error['success']; ?></div>
+                    <div style="color:red"><?php echo $error['submit']; ?></div>
                     <div><input type="submit" name="submit" value="Login"> </div>
 
                 </form>

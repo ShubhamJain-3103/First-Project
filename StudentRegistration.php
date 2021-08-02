@@ -1,41 +1,40 @@
-<?php 
+<?php
 session_start();
 require("mongo-config.php");
-$name=$email=$password=$dateofbirthday=$nhpassword='';
-$error=array('submit'=>'','success'=>'');
+$name = $email = $password = $dateofbirthday = $nhpassword = '';
+$error = array('submit' => '', 'success' => '');
 
-if(isset($_SESSION['email'])){
-  header("Location:blogPage.php?id=".rand());
+if (isset($_SESSION['email'])) {
+    header("Location:blogPage.php?id=" . rand());
 }
-if(isset($_POST['submit'])){
-	if(empty($_POST['name'])||empty($_POST['email'])||empty($_POST['password'])||empty($_POST['dateofbirthday'])){
-		$error['submit']='There are errors in the form!';
-		exit;
-	}
-	$name=htmlspecialchars($_POST['name']);
-	$email=htmlspecialchars($_POST['email']);
-	$dateofbirthday=htmlspecialchars($_POST['dateofbirthday']);
-	$nhpassword=htmlspecialchars($_POST['password']);
-	$password=password_hash($nhpassword,PASSWORD_DEFAULT);
-	
-	$query = $collection->findOne(['email' => $email]);
-	
-	if($query){
-		$error['submit']='The user already exist. Please use another Email account.';
-		exit;
-	}
-	else{
-		$insertOneResult = $collection->insertOne([
-			'name' => $name,
-			'email' => $email,
-			'password' => $password,
-			'date-of-birthday'=>$dateofbirthday,
-		]);
-		//$error['success']='Signup success.';
-		
-		header("Location:LoginPage.php");
-		exit;
-	}
+if (isset($_POST['submit'])) {
+    if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['password']) || empty($_POST['dateofbirthday'])) {
+        $error['submit'] = 'There are errors in the form!';
+        exit;
+    }
+    $name = htmlspecialchars($_POST['name']);
+    $email = htmlspecialchars($_POST['email']);
+    $dateofbirthday = htmlspecialchars($_POST['dateofbirthday']);
+    $nhpassword = htmlspecialchars($_POST['password']);
+    $password = password_hash($nhpassword, PASSWORD_DEFAULT);
+
+    $query = $collection->findOne(['email' => $email]);
+
+    if ($query) {
+        $error['submit'] = 'The user already exist. Please use another Email account.';
+        exit;
+    } else {
+        $insertOneResult = $collection->insertOne([
+            'name' => $name,
+            'email' => $email,
+            'password' => $password,
+            'date-of-birthday' => $dateofbirthday,
+        ]);
+        //$error['success']='Signup success.';
+
+        header("Location:LoginPage.php");
+        exit;
+    }
 }
 ?>
 
@@ -117,8 +116,8 @@ if(isset($_POST['submit'])){
                         </div>
                     </div><br><br>
                     <div style="text-align: center;">
-                        <div style="color:red"><?php echo $error['submit'];?></div>
-                        <div style="color:green"><?php echo $error['success'];?></div>
+                        <div style="color:red"><?php echo $error['submit']; ?></div>
+                        <div style="color:green"><?php echo $error['success']; ?></div>
                         <input type="submit" value="Submit">
                     </div>
                 </form>
